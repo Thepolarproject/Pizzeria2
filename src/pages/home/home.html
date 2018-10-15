@@ -1,18 +1,53 @@
+
 <ion-header>
-  <ion-navbar color="primary">
+  <ion-navbar color="primary" >
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Thepolarproject</ion-title>
+    <ion-title>  <ion-icon ios="ios-planet" md="md-planet"></ion-icon> Pizza Planeta </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Programas</h3>
+<ion-content>
+  <h3></h3>
+  <ion-card *ngIf="dish" color="primary">
+    <img src="{{'http://localhost:3000/'+ dish.image}}" />
+    <ion-card-content >
+      <ion-card-title color="light">
+        {{dish.name | uppercase}}
+      </ion-card-title>
+      <p>
+      {{dish.description}}
+      </p>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+  </ion-card-content>
+    </ion-card>
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+  <ion-card *ngIf="leader"color="primary">
+    <img src="{{'http://localhost:3000/'+ leader.image}}" />
+    <ion-card-content>
+      <ion-card-title color="light">
+        {{leader.name | uppercase}}
+</ion-card-title>
+<p>
+{{leader.description}}
+<p>
+  </ion-card-content>
+    </ion-card>
+
+  
+  <ion-card *ngIf="promotion">
+    <img src="{{'http://localhost:3000/'+ promotion.image}}" />
+    <ion-card-content>
+      <ion-card-title>
+        {{promotion.name | uppercase}}
+</ion-card-title>
+<p>
+  {{promotion.description}}
+</p>
+
+    </ion-card-content>
+
+  </ion-card>
+
 </ion-content>

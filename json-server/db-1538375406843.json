@@ -67,7 +67,7 @@
       "category": "entradas",
       "label": "Nuevo",
       "price": "69",
-      "featured": "true",
+      "featured": "false",
       "description": "Alas de pollo preparadas con salsa búfalo",
       "comments": [
         {
@@ -139,7 +139,7 @@
       "image": "images/tom.jpg",
       "designation": "Inventor de la deliciosa pizza",
       "abbr": "Fundador",
-      "featured": "true",
+      "featured": "false",
       "description": "Estando en un rato de ocio creo la pizza que a todos nos gusta. Ahora cuenta con x número de restaurantes a nivel internacional."
     },
     {

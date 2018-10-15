@@ -32,7 +32,7 @@
     },
     {
       "id": 1,
-      "name": "Papas gajo",
+      "name": "Papas Espaciales",
       "image": "images/papas_gajo.jpg",
       "category": "entradas",
       "label": "",
@@ -42,7 +42,7 @@
       "comments": [
         {
           "rating": 5,
-          "comment": "Deliciosa pizza, como siempre",
+          "comment": "Me han encantado saben fuera de este mundo",
           "author": "Bruce Willis",
           "date": "2018-05-16T17:57:28.556094Z"
         },
